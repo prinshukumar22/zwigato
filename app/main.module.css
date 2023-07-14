@@ -1,0 +1,6 @@
+.heading {
+    /* border:2px solid red; */
+    height: 290px;
+    display: grid;
+    place-items: center;
+}

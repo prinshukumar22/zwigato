@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 2px solid red; */
+  border-radius: 0.7rem;
+  color: rgb(54, 54, 54);
+  border: 1px solid rgb(232, 232, 232);
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card img {
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+  max-width: 100%;
+  height: 220px;
+}
+
+.card .desc {
+  padding: 0.5em 1em;
+}
+
+.desc h2 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+}
+
+.desc p {
+  color: rgb(79, 79, 79);
+}
+
+.link {
+  text-decoration: none;
+}
